@@ -6,7 +6,7 @@ import os
 smtp_server = "smtp.gmail.com"
 smtp_port = 587
 sender_email = "kanatbekova_ka@auca.kg" # Твоя почта
-sender_password = "F548515a" # Пароль приложения
+sender_password = "" # Пароль приложения
 receiver_email = "kanatbekovakaiyrkul@gmail.com" # Почта "жертвы"
 
 subject = "Bank Account Update Required"
