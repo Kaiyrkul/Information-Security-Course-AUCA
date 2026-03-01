@@ -1,0 +1,24 @@
+Laboratory Work 5: User Management in Linux
+
+Objectives:
+- Create two users and one group.
+- Assign a user to the group.
+- Verify configuration in /etc/passwd and /etc/group.
+
+Execution Steps:
+1. User Creation:
+   Command: sudo adduser user1
+   Command: sudo adduser user2
+   Verification: cat /etc/passwd
+   Result: user1:x:1001:1001:user1,,,:/home/user1:/bin/bash
+
+2. Group Management:
+   Command: sudo groupadd developers
+   Command: sudo usermod -aG developers user1
+
+3. Access Verification:
+   Command: groups user1
+   Output: user1 : user1 developers
+
+Conclusion:
+User management is essential for system security. Configuration files like /etc/passwd and /etc/group store vital details to control system access levels.
