@@ -1,0 +1,1 @@
+Laboratory work No. 6: Access rights management. A file has been created, the owner has been changed to user1, and 754 rights have been set (rwxr-xr--).
