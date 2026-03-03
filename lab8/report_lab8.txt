@@ -1,0 +1,14 @@
+Lab 8: Working with Vim Text Editor
+
+Objective: Master basic modes and commands of the Vim editor[cite: 1].
+
+Steps taken:
+1. Installation & Setup: Verified Vim installation and opened "file.txt".
+2. Insert Mode: Used 'i' key to enter text[cite: 22].
+3. Normal Mode: Used 'ESC' for navigation and command execution.
+4. Deletion:
+   - Deleted a single line using 'dd'[cite: 31].
+   - Cleared entire file content using ':%d'[cite: 35].
+5. Saving: Executed ':w' to save changes and ':q' to exit.
+
+Conclusion: Successfully learned how to edit files in a terminal environment using modal editing.
